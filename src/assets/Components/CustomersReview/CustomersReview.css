@@ -1,0 +1,91 @@
+.customer-reviws {
+  text-align: center;
+  margin-top: 10rem;
+  font-size: 40px;
+}
+
+.leaf {
+  text-align: center;
+  margin-top: 1rem;
+  position: relative;
+  z-index: 1;
+}
+.leaf4 {
+  width: 75%;
+  position: relative;
+  z-index: 1;
+}
+
+.watermark-leaf {
+  position: absolute;
+  top: 225rem;
+  opacity: 0.2;
+}
+.deal-img {
+  width: 100%;
+  height: 100%;
+}
+
+.Trending-prod-flex {
+  display: flex;
+  justify-content: space-around;
+  gap: 2rem;
+  margin-left: 10rem;
+  margin-top: 5rem;
+  margin-right: 10rem;
+}
+
+.client-img-button {
+  background-color: white;
+  margin-top: 4rem;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  border-width: 0.5rem;
+}
+.client-ratting {
+  color: rgb(236, 236, 13);
+  padding-top: 2rem;
+  font-size: x-large;
+}
+.clients-comment {
+  margin-top: 1rem;
+  font-size: 18px;
+  width: 20rem;
+  color: gray;
+  font-weight: bold;
+}
+.client-img-div {
+  margin-top: 1rem;
+}
+.client-Name {
+  margin-left: 12rem;
+  margin-top: -3rem;
+  font-size: 20px;
+  color: grey;
+}
+.deal-img-div {
+  display: inline-block;
+  position: relative;
+}
+
+.overlay-text h3 {
+  color: white;
+  font-size: 40px;
+  width: 20rem;
+  text-align: center;
+}
+.overlay-text p {
+  color: white;
+  font-weight: bolder;
+  text-align: center;
+}
+.overlay-text button {
+  margin-top: 4rem;
+  margin-left: 2rem;
+}
+.overlay-button-arrow {
+  margin-left: 0.5rem;
+  margin-bottom: 2rem;
+}

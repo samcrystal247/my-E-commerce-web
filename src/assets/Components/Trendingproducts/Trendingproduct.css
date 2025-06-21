@@ -1,0 +1,35 @@
+.Trending-prods {
+  text-align: center;
+  margin-top: 15vh;
+  font-size: 40px;
+  margin-bottom: 2rem;
+}
+.trending-section-leave {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.Trending-prods-flex {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.Trending-prods-flex p {
+  text-align: center;
+  font-size: 20px;
+  color: rgb(131, 128, 128);
+}
+.Trending-prods-flex h3 {
+  text-align: center;
+  font-size: 20px;
+  font-weight: bolder;
+}
+.Trending-prods-flex h6 {
+  text-align: center;
+  font-size: 20px;
+}
+.Trending-prods-flex h5 {
+  text-align: center;
+  font-size: 18px;
+}

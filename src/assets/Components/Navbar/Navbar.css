@@ -1,0 +1,55 @@
+.navbar-img {
+  width: 90%;
+  cursor: pointer;
+}
+
+.Nav-flex {
+  background-color: white;
+  height: 15vh;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  padding-top: 1rem;
+}
+.list-item-flex {
+  display: flex;
+  justify-content: space-around;
+  gap: 2rem;
+  list-style: none;
+  margin-top: 2rem;
+  font-size: 1.4rem;
+  cursor: pointer;
+}
+.currency-icon-div {
+  margin-top: 2rem;
+}
+.currency {
+  color: green;
+  font-size: large;
+  cursor: pointer;
+}
+.nav-basket {
+  color: green;
+  font-size: large;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  position: relative;
+  cursor: pointer;
+}
+.button-0 {
+  position: absolute;
+  top: -1rem;
+  margin-left: -0.5rem;
+  background-color: rgb(98, 160, 98);
+  cursor: pointer;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  font-weight: bold;
+  border-style: none;
+}
+.profile-icon {
+  font-size: larger;
+  color: black;
+  cursor: pointer;
+}
