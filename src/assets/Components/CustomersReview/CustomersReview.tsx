@@ -7,6 +7,7 @@ import client2 from "../../../assets/client02-free-img.png";
 import client1 from "../../../assets/client01-free-img.png";
 import Deal from "../../../assets/sydney-rae-668606-unsplash.jpg";
 import { FaArrowRight } from "react-icons/fa";
+import logoipsum from "../../../assets/logoipsum-215.svg";
 const CustomersReview = () => {
   return (
     <div>
@@ -70,6 +71,27 @@ const CustomersReview = () => {
               <p className="client-Name">Mike Sendler</p>
             </div>
           </button>
+        </div>
+      </div>
+      <div className="logoipsum-flex-div">
+        <h4>Featured Brands:</h4>
+        <div>
+          <img src={logoipsum} alt="" />
+        </div>
+        <div>
+          <img src={logoipsum} alt="" />
+        </div>
+        <div>
+          <img src={logoipsum} alt="" />
+        </div>
+        <div>
+          <img src={logoipsum} alt="" />
+        </div>
+        <div>
+          <img src={logoipsum} alt="" />
+        </div>
+        <div>
+          <img src={logoipsum} alt="" />
         </div>
       </div>
     </div>

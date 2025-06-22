@@ -1,0 +1,58 @@
+.footer-background-div {
+  background-color: black;
+  height: 62vh;
+  margin-top: 2rem;
+}
+.footer-flex-div {
+  display: flex;
+  justify-content: space-around;
+  color: white;
+  padding-top: 3rem;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 20px;
+}
+.footer-flex-div img {
+  cursor: pointer;
+  width: 70%;
+}
+.footer-flex-div p {
+  width: 13rem;
+  margin-top: 3rem;
+  font-weight: bold;
+}
+.footer-flex-div ol {
+  list-style: none;
+  cursor: pointer;
+  margin-top: 2rem;
+  line-height: 1.8rem;
+  color: gray;
+  transition: 0.1s;
+}
+.footer-flex-div ol:hover {
+  color: white;
+}
+.footer-line {
+  margin-top: 3rem;
+  lighting-color: gray;
+}
+.Dev-Name {
+  color: white;
+  margin-top: 3rem;
+  margin-left: 5rem;
+  display: inline-block;
+  position: relative;
+}
+.social-links {
+  color: white;
+  margin-left: 80rem;
+  margin-bottom: -8rem;
+  position: absolute;
+  /* bottom: 400rem; */
+}
+.social {
+  color: white;
+  font-size: x-large;
+  margin-left: 1rem;
+  cursor: pointer;
+}
