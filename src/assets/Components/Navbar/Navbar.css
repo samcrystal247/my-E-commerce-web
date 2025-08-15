@@ -11,6 +11,7 @@
   text-align: center;
   padding-top: 1rem;
 }
+
 .list-item-flex {
   display: flex;
   justify-content: space-around;
@@ -20,14 +21,17 @@
   font-size: 1.4rem;
   cursor: pointer;
 }
+
 .currency-icon-div {
   margin-top: 2rem;
 }
+
 .currency {
   color: green;
   font-size: large;
   cursor: pointer;
 }
+
 .nav-basket {
   color: green;
   font-size: large;
@@ -36,6 +40,7 @@
   position: relative;
   cursor: pointer;
 }
+
 .button-0 {
   position: absolute;
   top: -1rem;
@@ -48,8 +53,82 @@
   font-weight: bold;
   border-style: none;
 }
+
 .profile-icon {
   font-size: larger;
   color: black;
   cursor: pointer;
+}
+
+/* ========================
+   MEDIA QUERIES
+   ======================== */
+
+/* Large desktops (≥1200px) */
+@media (min-width: 1200px) {
+  .list-item-flex {
+    font-size: 1.6rem;
+    gap: 3rem;
+  }
+  .navbar-img {
+    width: 80%;
+  }
+}
+
+/* Tablets & small laptops (768px–1199px) */
+@media (max-width: 1199px) and (min-width: 768px) {
+  .list-item-flex {
+    font-size: 1.2rem;
+    gap: 1.5rem;
+  }
+  .navbar-img {
+    width: 75%;
+  }
+  .Nav-flex {
+    height: auto;
+    padding: 1rem;
+  }
+}
+
+/* Large phones (480px–767px) */
+@media (max-width: 767px) and (min-width: 480px) {
+  .Nav-flex {
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    padding: 1rem 0;
+  }
+  .list-item-flex {
+    flex-direction: column;
+    gap: 1rem;
+    margin-top: 1rem;
+    font-size: 1.1rem;
+  }
+  .navbar-img {
+    width: 60%;
+  }
+}
+
+/* Small phones (<480px) */
+@media (max-width: 479px) {
+  .Nav-flex {
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    padding: 1rem 0;
+  }
+  .list-item-flex {
+    flex-direction: column;
+    gap: 0.8rem;
+    margin-top: 1rem;
+    font-size: 1rem;
+  }
+  .navbar-img {
+    width: 55%;
+  }
+  .currency,
+  .nav-basket,
+  .profile-icon {
+    font-size: medium;
+  }
 }
